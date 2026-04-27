@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hörmann Garagentore in Hannover. Beratung, Lieferung und Montage vom Profi. Sektionaltore, Schwingtore, Rolltore und Antriebe – alles aus einer Hand." />
+  <link rel="canonical" href="https://1agaragentore.de/" />
+  <title>Machens Bauelemente · Hörmann Montageprofi Hannover</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <nav class="nav" id="nav" aria-label="Hauptnavigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="Gerhard Machens · Bauelemente Montagen — zur Startseite">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Gerhard Machens · Bauelemente Montagen" />
+      </a>
+
+      <div class="menu" role="menubar">
+        <div class="menu-item">
+          <a class="menu-link active" href="index.html">Home</a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-link " href="#" aria-haspopup="true" onclick="event.preventDefault();">
+            Garage
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 4l3 3 3-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <div class="submenu" role="menu">
+            <a href="garagen-sektionaltore.html">Sektionaltore</a>
+            <a href="garagen-schwingtore.html">Schwingtore</a>
+            <a href="garagen-rolltore.html">Rolltore RollMatic</a>
+            <a href="seiten-sektionaltore.html">Seiten Sektionaltore</a>
+            <a href="garagen-nebentuer.html">Garagen Nebentür</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <a class="menu-link " href="#" aria-haspopup="true" onclick="event.preventDefault();">
+            Antriebe
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 4l3 3 3-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <div class="submenu" role="menu">
+            <a href="garagentor-antrieb.html">Garagentor Antrieb</a>
+            <a href="einfahrtstor-antrieb.html">Einfahrtstor Antrieb</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <a class="menu-link " href="anfrage.html">Kontakt</a>
+        </div>
+      </div>
+
+      <div class="nav-cta">
+        <a href="tel:05131463233" class="phone-link" aria-label="Anrufen">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+          <span style="display:block;color: var(--c-ink);">05131 / 463233</span>
+        </a>
+        <a href="anfrage.html" class="btn btn-primary" style="padding: 12px 22px; font-size: 14px;">
+          Anfrage
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="container">
+      <div class="group">
+        <h4>Garage</h4>
+        <a href="garagen-sektionaltore.html">Sektionaltore</a>
+        <a href="garagen-schwingtore.html">Schwingtore</a>
+        <a href="garagen-rolltore.html">Rolltore RollMatic</a>
+        <a href="seiten-sektionaltore.html">Seiten Sektionaltore</a>
+        <a href="garagen-nebentuer.html">Garagen Nebentür</a>
+      </div>
+      <div class="group">
+        <h4>Antriebe</h4>
+        <a href="garagentor-antrieb.html">Garagentor Antrieb</a>
+        <a href="einfahrtstor-antrieb.html">Einfahrtstor Antrieb</a>
+      </div>
+      <div class="group">
+        <h4>Kontakt</h4>
+        <a href="anfrage.html">Anfrage stellen</a>
+      </div>
+      <div class="mobile-cta">
+        <a href="tel:05131463233" class="btn btn-ghost">Jetzt anrufen · 05131 / 463233</a>
+        <a href="anfrage.html" class="btn btn-primary">Kostenlose Anfrage stellen</a>
+      </div>
+    </div>
+  </div>
+  <header class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="kicker reveal">Montageprofi für Hörmann Produkte</span>
+        <h1 class="reveal" data-delay="1">
+          Hörmann Tore und Türen.<br>
+          <span class="accent">Ihr Montageprofi</span> in Hannover.
+        </h1>
+        <p class="hero-lead reveal" data-delay="2">
+          Beratung bei Ihnen vor Ort. Inklusive Lieferung und Montage vom Profi.
+          Von der Planung bis zum letzten Justieren — alles aus einer Hand.
+        </p>
+        <div class="hero-actions reveal" data-delay="3">
+          <a href="anfrage.html" class="btn btn-primary">
+            Kostenlose Anfrage
+            <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#produkte" class="btn btn-ghost">Produkte ansehen</a>
+        </div>
+
+        <div class="hero-meta reveal" data-delay="3">
+          <div>
+            <span class="stat-num" data-count="200">200+</span>
+            <span class="stat-label">RAL-Farben individuell wählbar</span>
+          </div>
+          <div>
+            <span class="stat-num" data-count="50">50+</span>
+            <span class="stat-label">Jahre bewährte Hörmann-Technik</span>
+          </div>
+          <div>
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Beratung, Lieferung &amp; Montage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="2">
+        <img class="hero-img-main" src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-edel-hoermann-hannover.jpg" alt="Sektionaltor Edel Anthrazit Hörmann Hannover" loading="eager" />
+        <img class="hero-img-secondary" src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-holz-hoermann-hannover.jpg" alt="Sektionaltor in Holzoptik" loading="lazy" />
+        <div class="hero-badge" aria-hidden="true">
+          <div>
+            <strong>Hörmann</strong>
+            Partner<br>Hannover
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="trust-bar" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Sektionaltore</span>
+      <span>Schwingtore</span>
+      <span>RollMatic Rolltore</span>
+      <span>Seiten-Sektionaltore</span>
+      <span>Garagen-Nebentüren</span>
+      <span>RotaMatic</span>
+      <span>VersaMatic</span>
+      <span>Hörmann Original</span>
+      <span>Sektionaltore</span>
+      <span>Schwingtore</span>
+      <span>RollMatic Rolltore</span>
+      <span>Seiten-Sektionaltore</span>
+      <span>Garagen-Nebentüren</span>
+      <span>RotaMatic</span>
+      <span>VersaMatic</span>
+      <span>Hörmann Original</span>
+    </div>
+  </div>
+
+  <section id="produkte">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">Produkte &amp; Lösungen</span>
+          <h2>Maßgeschneidert für<br>Ihre Garage.</h2>
+        </div>
+        <p class="lead">
+          Vier Tor-Typen, unzählige Farben und Motive. Wir beraten Sie persönlich,
+          welches Tor zu Ihrem Haus, Ihrem Stil und Ihrer Einbausituation passt —
+          und übernehmen anschließend Lieferung und fachgerechte Montage.
+        </p>
+      </div>
+
+      <article class="product reveal" id="sektionaltor">
+        <div class="product-media">
+          <div class="stack">
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-hoermann-hannover.jpg" alt="Sektionaltor Anthrazit Hörmann Hannover" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-holz-hoermann-hannover.jpg" alt="Sektionaltor in Holzoptik" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-edel-hoermann-hannover.jpg" alt="Edel-Anthrazit Sektionaltor" loading="lazy"/>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-num">— 01 / Garagen</span>
+          <h3>Garagen Sektionaltore</h3>
+          <p>
+            <strong>Sektional-Garagentore öffnen senkrecht</strong> und nehmen bauartbedingt nur sehr wenig
+            Platz unter dem Dach der Garage weg. Anders als bei Schwenktoren können Sie direkt vor der
+            Garage parken und das Tor öffnen oder schließen, ohne Beschädigungen zu befürchten.
+          </p>
+          <p>
+            Da nur Laufschienen und kein Federmechanismus verwendet wird, kann
+            <strong> die Durchfahrtbreite bis zu 14&nbsp;cm mehr betragen</strong>.
+          </p>
+          <a href="garagen-sektionaltore.html" class="link-arrow product-cta">
+            Mehr zum Thema Sektional-Garagentor
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="product reverse reveal" id="schwingtor">
+        <div class="product-media">
+          <div class="stack">
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/Schwingtor-Tannengruen-1024x717.jpg" alt="Berry Schwingtor Tannengrün" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/Schwingtor.jpg" alt="Schwingtor Holz Premium Garagentor" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/Schwingtor2.jpg" alt="Schwingtor Holz Premium Detail" loading="lazy"/>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-num">— 02 / Garagen</span>
+          <h3>Berry Schwingtor</h3>
+          <p>
+            Qualität und schöne Optik — bei Ihnen in Schwung gebracht. Mehr als 50 Jahre Know-how und eine
+            <strong> bewährte Technik machen Schwingtore zu unserem Bestseller</strong>. Mittlerweile verfeinert
+            mit vielen kleinen Details, die die Sicherheit erhöhen und den Umgang mit dem Tor einfacher und
+            beständiger machen.
+          </p>
+          <p>
+            Vielfältige Motive und Farben bieten auch für Ihr Haus das optimale Tor. Wählen Sie eines der
+            7 preiswerten Standardfarben oder gestalten Sie ganz individuell aus über
+            <strong> 200 RAL-Farben</strong> Ihre Wunschfarbe.
+          </p>
+          <a href="garagen-schwingtore.html" class="link-arrow product-cta">
+            Mehr zum Thema Berry-Schwingtor
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="product reveal" id="nebentuer">
+        <div class="product-media">
+          <div class="stack">
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/nebentuer-rolltor-1024x720.jpg" alt="Garagen Nebentür mit Rolltor" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/nebentuer-rolltor2-716x1024.jpg" alt="Garagen Nebentür Detail" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/nebentuer.jpg" alt="Garagen Nebentür mit Sektionaltor" loading="lazy"/>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-num">— 03 / Garagen</span>
+          <h3>Garagen Nebentür</h3>
+          <p>
+            Damit Sie Ihr Garagentor nicht für jede Kleinigkeit öffnen müssen, haben wir passende
+            ansichtsgleiche <strong>Garagen-Nebentüren</strong> im Programm. Auch durch Fahrzeuge versperrte
+            Garagen lassen sich so bequem erreichen.
+          </p>
+          <p>
+            Zu fast jedem Tormotiv erhalten Sie von uns eine ansichtsgleiche Nebentür für Ihre Garage —
+            harmonisch in Farbe und Motiv abgestimmt.
+          </p>
+          <a href="garagen-nebentuer.html" class="link-arrow product-cta">
+            Mehr zum Thema Garagen-Nebentür
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="product reverse reveal" id="antriebe">
+        <div class="product-media">
+          <div class="stack">
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/einfahrtstor_antrieb.jpg" alt="Einfahrtstor Antrieb Hörmann" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/antrieb-rotamatic-1024x717.jpg" alt="Antrieb Einfahrtstor RotaMatic Hörmann" loading="lazy"/>
+            <img src="https://1agaragentore.de/wp-content/uploads/2018/02/antrieb-versamatic-1024x717.jpg" alt="Antrieb Einfahrtstor VersaMatic Hörmann" loading="lazy"/>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-num">— 04 / Antriebe</span>
+          <h3>Antrieb Einfahrtstor</h3>
+          <p>
+            Durch unsere ferngesteuerten Einfahrtstore wird die Fahrt auf Ihr Grundstück maximal komfortabel.
+            Bewährte Technik in allen Bereichen wird Sie überzeugen.
+            <strong> Durch eine sanfte Start- und Stopp-Automatik läuft Ihr Tor stets ruckelfrei und elegant</strong> —
+            zugleich materialschonend für eine lange Lebensdauer.
+          </p>
+          <p>
+            Die automatische Zulauffunktion in Kombination mit der benötigten Lichtschranke schließt Ihr Tor
+            nach vorab festgelegtem Zeitplan.
+          </p>
+          <a href="einfahrtstor-antrieb.html" class="link-arrow product-cta">
+            Mehr zum Thema Antrieb Einfahrtstore
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="pillars-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">Warum Machens</span>
+          <h2>Drei Säulen,<br>auf die Sie zählen können.</h2>
+        </div>
+        <p class="lead">
+          Wir sind eine Montagefirma — keine Vertriebsmaschine. Das bedeutet:
+          weniger Vermittlung, mehr persönliche Verantwortung von der ersten Beratung
+          bis zum letzten Justieren des Tors.
+        </p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar reveal" data-delay="1">
+          <div class="pillar-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h4>Hörmann Original</h4>
+          <p>Wir verbauen ausschließlich qualitativ hochwertige Hörmann-Komponenten — bewährte Technik, die ein Leben lang hält.</p>
+        </div>
+        <div class="pillar reveal" data-delay="2">
+          <div class="pillar-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h4>Beratung vor Ort</h4>
+          <p>Unkomplizierte Vor-Ort-Beratung in Hannover und Umgebung. Wir sehen Ihr Bauvorhaben mit eigenen Augen — und beraten danach.</p>
+        </div>
+        <div class="pillar reveal" data-delay="3">
+          <div class="pillar-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M12 22s-8-4-8-12V5l8-3 8 3v5c0 8-8 12-8 12z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h4>Service nach dem Kauf</h4>
+          <p>Den nachfolgenden Service schätzen unsere Kunden besonders. Bei uns endet die Beziehung nicht mit dem Verkauf — sie beginnt dort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding: 60px 0;">
+    <div class="inclusive-wrap">
+      <div class="inclusive reveal">
+        <div class="inclusive-grid">
+          <div>
+            <span class="kicker" style="color: var(--c-accent);">Rundum-Service</span>
+            <h2>Bestellung, Lieferung,<br><em>Montage</em> — alles inklusive.</h2>
+            <p>
+              Mit uns als starkem Partner planen und bestellen wir Ihre Tore und Türen.
+              Nichts fehlt, an alles gedacht. Nach Lieferung bei Ihnen vor Ort montieren
+              und justieren wir die Tore und Türen direkt. Fordern Sie jetzt Preise zu
+              Ihrem Projekt an.
+            </p>
+            <ol class="inclusive-steps">
+              <li>Beratung &amp; Aufmaß bei Ihnen vor Ort in Hannover</li>
+              <li>Planung und Bestellung der passenden Hörmann-Lösung</li>
+              <li>Lieferung und fachgerechte Montage durch unser Team</li>
+              <li>Feinjustierung &amp; Übergabe — Sie können sofort losfahren</li>
+            </ol>
+            <a href="anfrage.html" class="btn btn-light">
+              Projekt anfragen
+              <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+          <div>
+            <img class="inclusive-img" src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-edel-hoermann-hannover.jpg" alt="Sektionaltor Edel Anthrazit von Hörmann" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 80px; padding-bottom: 90px;">
+    <div class="container">
+      <div class="catalog reveal">
+        <div>
+          <span class="kicker">Inspiration</span>
+          <h2>Blättern Sie in den<br>HÖRMANN Katalogen.</h2>
+          <p>
+            Sie möchten sich auch „offline" ein Bild über HÖRMANN machen? Kein Problem.
+            Die Kataloge können Sie kostenfrei anfordern. Einfach unser Anfrageformular
+            ausfüllen und Adresse hinterlegen — wir senden die Kataloge direkt per Post zu.
+          </p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px;">
+            <a href="https://www.hoermann.de/mediacenter/?no_cache=1&amp;goalgroup=&amp;pgroup=&amp;product=&amp;mediatype=catalogue&amp;autostart=1" class="btn btn-primary" target="_blank" rel="noopener">
+              Online-Kataloge ansehen
+              <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="anfrage.html" class="btn btn-ghost">Kataloge per Post anfordern</a>
+          </div>
+        </div>
+        <div style="display: grid; place-items: center;">
+          <img class="catalog-img" src="https://1agaragentore.de/wp-content/uploads/2018/02/sectionaltor-holz-hoermann-hannover.jpg" alt="Hörmann Katalog" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="editorial">
+    <div class="container">
+      <div class="editorial-grid">
+        <aside class="editorial-side reveal">
+          <span class="kicker">Hintergrund</span>
+          <h2>Hörmann Garagentor in Hannover.</h2>
+          <p style="font-size: 15px; color: var(--c-muted);">
+            Was Sie über die Auswahl, Vorzüge und Einbausituationen unserer Garagentore wissen sollten.
+          </p>
+        </aside>
+        <div class="editorial-body reveal" data-delay="1">
+          <h3>Kauf eines Garagentors beim Spezialisten Ihres Vertrauens</h3>
+          <p>
+            Wenn Sie auf der Suche nach einem Tor für Ihre Garage sind, dann sind Sie bei uns an
+            der richtigen Adresse. Wir als Montagefirma vertreiben und verbauen ausschließlich
+            qualitativ hochwertige HÖRMANN-Komponenten. Unsere unkomplizierte Vor-Ort-Beratung und
+            der nachfolgende Service sind zwei Punkte, die unsere Kunden sehr schätzen. Der Kauf
+            eines passenden Garagentores ist Vertrauenssache. Dieses entgegengebrachte Vertrauen
+            werden wir nicht enttäuschen.
+          </p>
+
+          <h3>Verschiedene Arten von Garagentoren</h3>
+          <p>
+            Im Angebotskatalog von HÖRMANN finden Sie diverse Arten von Garagentoren. Aus diesem
+            Grund werden Ihnen unsere Experten erklären, ob für Sie ein Garagen-Sektionaltor, ein
+            Berry-Schwingtor, ein Garagentor RollMatic oder ein Seiten-Sektionaltor der Firma
+            HÖRMANN in Frage kommt. Gerne bieten wir Ihnen auch eine passende Garagennebentür an.
+          </p>
+
+          <h3>Die Vorzüge der einzelnen Garagentore</h3>
+          <p>
+            Um sich für ein bestimmtes Garagentor zu entscheiden, müssen Sie zunächst die
+            Eigenschaften der einzelnen Tortypen kennen. Die Vorteile eines Sektionaltores liegen
+            beispielsweise in dem maximalen Platz, den diese Art von Garagentoren Ihnen bieten.
+            Sektionaltore öffnen senkrecht und schließen platzsparend unter der Decke, sodass viel
+            Raum vor und in der Garage frei bleibt.
+          </p>
+          <p>
+            Im Verhältnis zu Sektionaltoren bieten Schwingtore zwar nicht ganz so viel Platz, dafür
+            aber ein ausgereiftes Garagentor von sehr hoher Qualität. Vielleicht kommt für Sie auch
+            ein Rolltor bzw. Deckenlauftor in Betracht. Auch diese öffnen und schließen senkrecht
+            und bieten maximal viel Raum in und vor der Garage. Bei komplexeren Einbausituationen,
+            zum Beispiel wegen Dachschrägen, kommen auch sogenannte Seiten-Sektionaltore in Betracht.
+          </p>
+          <p>
+            Mit uns als starkem Hörmann-Partner entwickeln wir Ihr Bauprojekt und schließen es zügig
+            und unkompliziert ab. Neben Garagentoren und Antrieben umfasst unser Produktportfolio
+            auch Haustüren, Wohnraumtüren und Antriebe für Innentüren.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="kontakt">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="kicker" style="color: var(--c-accent);">Kontakt</span>
+          <h2>Jetzt Kontakt<br>aufnehmen.</h2>
+          <p>
+            Beschreiben Sie Ihre Bauplanung im Anfrageformular, geben Sie die gefragten
+            Daten ein — wir setzen uns schnellstmöglich mit Ihnen in Verbindung. Mit uns
+            als starkem Hörmann-Partner entwickeln wir Ihr Bauprojekt und schließen es
+            zügig und unkompliziert ab.
+          </p>
+
+          <div class="contact-channels">
+            <a href="tel:05131463233" class="contact-channel">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <small>Telefon</small>
+                <strong>05131 / 463233</strong>
+              </div>
+            </a>
+
+            <a href="mailto:info@1agaragentore.de" class="contact-channel">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <small>E-Mail</small>
+                <strong>info@1agaragentore.de</strong>
+              </div>
+            </a>
+
+            <div class="contact-channel" style="cursor: default;">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                  <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.8"/>
+                </svg>
+              </div>
+              <div>
+                <small>Adresse</small>
+                <strong>Glockenblumenweg 20, 30826 Garbsen</strong>
+              </div>
+            </div>
+          </div>
+
+          <p style="margin-top: 30px; font-size: 13.5px; color: rgba(241,234,217,.55);">
+            Hinweis: Keine Ausstellung vor Ort. Termine vor Ort nur nach vorheriger Absprache.
+          </p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" data-delay="1" name="anfrage" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/danke.html" novalidate>
+          <!-- Netlify Forms: erforderliche versteckte Felder -->
+          <input type="hidden" name="form-name" value="anfrage" />
+          <p style="display:none;">
+            <label>Bitte nicht ausfüllen (Spam-Schutz): <input name="bot-field" /></label>
+          </p>
+          <h3>Jetzt anfragen</h3>
+          <p>Wir antworten in der Regel innerhalb eines Arbeitstages.</p>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="firstName">Vorname *</label>
+              <input id="firstName" name="firstName" type="text" autocomplete="given-name" required />
+            </div>
+            <div class="field">
+              <label for="lastName">Nachname *</label>
+              <input id="lastName" name="lastName" type="text" autocomplete="family-name" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Telefonnummer *</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+            </div>
+            <div class="field">
+              <label for="email">E-Mail-Adresse *</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+          </div>
+
+          <span class="interests-label">Interesse an folgenden Produkten *</span>
+          <div class="interests" role="group" aria-label="Interessen">
+            <div class="interest-chip">
+              <input type="checkbox" id="i1" name="interests" value="Sektionaltor" />
+              <label for="i1">Sektionaltor</label>
+            </div>
+            <div class="interest-chip">
+              <input type="checkbox" id="i2" name="interests" value="Schwingtor" />
+              <label for="i2">Schwingtor</label>
+            </div>
+            <div class="interest-chip">
+              <input type="checkbox" id="i3" name="interests" value="Haus und Garagentüre" />
+              <label for="i3">Haus- &amp; Garagentüre</label>
+            </div>
+            <div class="interest-chip">
+              <input type="checkbox" id="i4" name="interests" value="Antriebe" />
+              <label for="i4">Antriebe</label>
+            </div>
+            <div class="interest-chip">
+              <input type="checkbox" id="i5" name="interests" value="Kataloge & Infomaterial" />
+              <label for="i5">Kataloge &amp; Infomaterial</label>
+            </div>
+          </div>
+
+          <div class="field" style="margin-bottom: 18px;">
+            <label for="message">Zusätzliche Bemerkungen</label>
+            <textarea id="message" name="message" rows="4" placeholder="Erzählen Sie uns kurz von Ihrem Bauvorhaben…"></textarea>
+          </div>
+
+          <div class="field" style="margin-bottom: 18px;">
+            <label for="website">Website</label>
+            <input id="website" name="website" type="url" placeholder="https://" />
+          </div>
+
+          <label class="privacy-row">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <span>
+              Ich habe die <a href="https://1agaragentore.de/datenschutz/" target="_blank" rel="noopener">Datenschutzerklärung</a>
+              gelesen und akzeptiert. *
+            </span>
+          </label>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            Jetzt Anfragen
+            <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+
+          <div class="form-msg" id="formMsg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/img/logo.png" alt="Gerhard Machens · Bauelemente Montagen" />
+          </div>
+          <p>Bauelemente &amp; Montage. Ihr Hörmann-Spezialist für Garagentore, Antriebe und Türen rund um Hannover.</p>
+          <address>
+            Gerhard Machens<br>
+            Bauelemente — Montage<br>
+            Glockenblumenweg 20<br>
+            30826 Garbsen<br>
+            <br>
+            Tel.: 05131 / 463233<br>
+            Fax: 05131 / 463234<br>
+            Mobil: 0172 / 5490387<br>
+            <br>
+            <em style="color: rgba(241,234,217,.55);">Keine Ausstellung vor Ort. Termine vor Ort nur nach vorheriger Absprache.</em>
+          </address>
+        </div>
+
+        <div>
+          <h5>Produkte</h5>
+          <ul>
+            <li><a href="garagen-sektionaltore.html">Sektionaltore</a></li>
+            <li><a href="garagen-schwingtore.html">Schwingtore</a></li>
+            <li><a href="garagen-rolltore.html">Rolltore</a></li>
+            <li><a href="seiten-sektionaltore.html">Seiten Sektionaltore</a></li>
+            <li><a href="garagen-nebentuer.html">Garagen Nebentür</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Antriebe</h5>
+          <ul>
+            <li><a href="garagentor-antrieb.html">Garagentor Antrieb</a></li>
+            <li><a href="einfahrtstor-antrieb.html">Einfahrtstor Antrieb</a></li>
+            <li><a href="https://1agaragentore.de/blog/">News</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Kontakt</h5>
+          <ul>
+            <li><a href="tel:05131463233">05131 / 463233</a></li>
+            <li><a href="mailto:info@1agaragentore.de">info@1agaragentore.de</a></li>
+            <li><a href="anfrage.html">Anfrage senden</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Gerhard Machens · Bauelemente &amp; Montage. Alle Rechte vorbehalten.</span>
+        <span>
+          <a href="https://1agaragentore.de/datenschutz/">Datenschutz</a>
+          &nbsp;·&nbsp;
+          <a href="https://1agaragentore.de/impressum/">Impressum</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
